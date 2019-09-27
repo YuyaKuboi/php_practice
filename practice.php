@@ -1,5 +1,4 @@
-課題
-<?php
+/*
 $a = 3;
 $b = 7;
 echo $a + $b;
@@ -31,4 +30,38 @@ $calendar_2018 = [
   "December" => "12月"
 ];
 echo $calendar_2018["December"];
+*/
+
+<?php
+//ここから課題
+$name = "クボイユウヤ";
+switch ($name) {
+  case "クボイユウヤ":
+    echo "私はクボイユウヤです";
+    break;
+    default;
+    echo "あなたの名前ではありません";
+    break;
+}
+
+$total = 0;
+for ($i = 0; $i <= 1000; $i++) {
+  $total += $i;
+}
+echo $total;
+
+$fruits = array("梨", "柿", "桃", "りんご", "みかん");
+foreach($fruits as $fruits){
+  echo "好きなフルーツは" . $fruits;
+  echo "\n";
+}
+
+$a = 1;
+$b = 100;
+for ($i = $a; $i <= $b; $i++){
+  if(($i % 5) == 0){
+    echo $i;
+    echo "\n";
+  }
+}
 
