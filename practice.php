@@ -35,14 +35,11 @@ echo $calendar_2018["December"];
 <?php
 //ここから課題
 $name = "クボイユウヤ";
-switch ($name) {
-  case "クボイユウヤ":
-    echo "私はクボイユウヤです";
-    break;
-    default;
-    echo "あなたの名前ではありません";
-    break;
-}
+if ($name) {
+  echo "私はクボイユウヤです";
+} else {
+  echo "$name ではありません";
+}  
 
 $total = 0;
 for ($i = 0; $i <= 1000; $i++) {
