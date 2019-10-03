@@ -34,9 +34,9 @@ echo $calendar_2018["December"];
 
 <?php
 //ここから課題
-$name = "クボイユウヤ";
-if ($name) {
-  echo "私はクボイユウヤです";
+$name = "クボイ";
+if ($name == "クボイ") {
+  echo "私はクボイです";
 } else {
   echo "$name ではありません";
 }  
