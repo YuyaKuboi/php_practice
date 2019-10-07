@@ -42,14 +42,14 @@ if ($name == "クボイ") {
 }  
 
 $total = 0;
-for ($i = 0; $i <= 1000; $i++) {
+for ($i = 1; $i <= 10000; $i++) {
   $total += $i;
 }
 echo $total;
 
 $fruits = array("梨", "柿", "桃", "りんご", "みかん");
-foreach($fruits as $fruits){
-  echo "好きなフルーツは" . $fruits;
+foreach($fruits as $fruit){
+  echo "好きなフルーツは" . $fruit;
   echo "\n";
 }
 
